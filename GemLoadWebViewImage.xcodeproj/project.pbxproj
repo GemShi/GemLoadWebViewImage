@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5EA44E1E7D72F9005DD428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5EA44D1E7D72F9005DD428 /* main.m */; };
+		DF5EA4511E7D72F9005DD428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5EA4501E7D72F9005DD428 /* AppDelegate.m */; };
+		DF5EA4541E7D72F9005DD428 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5EA4531E7D72F9005DD428 /* ViewController.m */; };
+		DF5EA4571E7D72F9005DD428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5EA4551E7D72F9005DD428 /* Main.storyboard */; };
+		DF5EA4591E7D72F9005DD428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5EA4581E7D72F9005DD428 /* Assets.xcassets */; };
+		DF5EA45C1E7D72F9005DD428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5EA45A1E7D72F9005DD428 /* LaunchScreen.storyboard */; };
+		DF5EA4671E7D72F9005DD428 /* GemLoadWebViewImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5EA4661E7D72F9005DD428 /* GemLoadWebViewImageTests.m */; };
+		DF5EA4721E7D72F9005DD428 /* GemLoadWebViewImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5EA4711E7D72F9005DD428 /* GemLoadWebViewImageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF5EA4631E7D72F9005DD428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5EA4411E7D72F8005DD428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5EA4481E7D72F8005DD428;
+			remoteInfo = GemLoadWebViewImage;
+		};
+		DF5EA46E1E7D72F9005DD428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5EA4411E7D72F8005DD428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5EA4481E7D72F8005DD428;
+			remoteInfo = GemLoadWebViewImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF5EA4491E7D72F9005DD428 /* GemLoadWebViewImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemLoadWebViewImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5EA44D1E7D72F9005DD428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF5EA44F1E7D72F9005DD428 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF5EA4501E7D72F9005DD428 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF5EA4521E7D72F9005DD428 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF5EA4531E7D72F9005DD428 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF5EA4561E7D72F9005DD428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF5EA4581E7D72F9005DD428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5EA45B1E7D72F9005DD428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5EA45D1E7D72F9005DD428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5EA4621E7D72F9005DD428 /* GemLoadWebViewImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemLoadWebViewImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5EA4661E7D72F9005DD428 /* GemLoadWebViewImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemLoadWebViewImageTests.m; sourceTree = "<group>"; };
+		DF5EA4681E7D72F9005DD428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5EA46D1E7D72F9005DD428 /* GemLoadWebViewImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemLoadWebViewImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5EA4711E7D72F9005DD428 /* GemLoadWebViewImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemLoadWebViewImageUITests.m; sourceTree = "<group>"; };
+		DF5EA4731E7D72F9005DD428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5EA4461E7D72F8005DD428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5EA45F1E7D72F9005DD428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5EA46A1E7D72F9005DD428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5EA4401E7D72F8005DD428 = {
+			isa = PBXGroup;
+			children = (
+				DF5EA44B1E7D72F9005DD428 /* GemLoadWebViewImage */,
+				DF5EA4651E7D72F9005DD428 /* GemLoadWebViewImageTests */,
+				DF5EA4701E7D72F9005DD428 /* GemLoadWebViewImageUITests */,
+				DF5EA44A1E7D72F9005DD428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5EA44A1E7D72F9005DD428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EA4491E7D72F9005DD428 /* GemLoadWebViewImage.app */,
+				DF5EA4621E7D72F9005DD428 /* GemLoadWebViewImageTests.xctest */,
+				DF5EA46D1E7D72F9005DD428 /* GemLoadWebViewImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5EA44B1E7D72F9005DD428 /* GemLoadWebViewImage */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EA44F1E7D72F9005DD428 /* AppDelegate.h */,
+				DF5EA4501E7D72F9005DD428 /* AppDelegate.m */,
+				DF5EA4521E7D72F9005DD428 /* ViewController.h */,
+				DF5EA4531E7D72F9005DD428 /* ViewController.m */,
+				DF5EA4551E7D72F9005DD428 /* Main.storyboard */,
+				DF5EA4581E7D72F9005DD428 /* Assets.xcassets */,
+				DF5EA45A1E7D72F9005DD428 /* LaunchScreen.storyboard */,
+				DF5EA45D1E7D72F9005DD428 /* Info.plist */,
+				DF5EA44C1E7D72F9005DD428 /* Supporting Files */,
+			);
+			path = GemLoadWebViewImage;
+			sourceTree = "<group>";
+		};
+		DF5EA44C1E7D72F9005DD428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EA44D1E7D72F9005DD428 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF5EA4651E7D72F9005DD428 /* GemLoadWebViewImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EA4661E7D72F9005DD428 /* GemLoadWebViewImageTests.m */,
+				DF5EA4681E7D72F9005DD428 /* Info.plist */,
+			);
+			path = GemLoadWebViewImageTests;
+			sourceTree = "<group>";
+		};
+		DF5EA4701E7D72F9005DD428 /* GemLoadWebViewImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF5EA4711E7D72F9005DD428 /* GemLoadWebViewImageUITests.m */,
+				DF5EA4731E7D72F9005DD428 /* Info.plist */,
+			);
+			path = GemLoadWebViewImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5EA4481E7D72F8005DD428 /* GemLoadWebViewImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5EA4761E7D72F9005DD428 /* Build configuration list for PBXNativeTarget "GemLoadWebViewImage" */;
+			buildPhases = (
+				DF5EA4451E7D72F8005DD428 /* Sources */,
+				DF5EA4461E7D72F8005DD428 /* Frameworks */,
+				DF5EA4471E7D72F8005DD428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemLoadWebViewImage;
+			productName = GemLoadWebViewImage;
+			productReference = DF5EA4491E7D72F9005DD428 /* GemLoadWebViewImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF5EA4611E7D72F9005DD428 /* GemLoadWebViewImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5EA4791E7D72F9005DD428 /* Build configuration list for PBXNativeTarget "GemLoadWebViewImageTests" */;
+			buildPhases = (
+				DF5EA45E1E7D72F9005DD428 /* Sources */,
+				DF5EA45F1E7D72F9005DD428 /* Frameworks */,
+				DF5EA4601E7D72F9005DD428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5EA4641E7D72F9005DD428 /* PBXTargetDependency */,
+			);
+			name = GemLoadWebViewImageTests;
+			productName = GemLoadWebViewImageTests;
+			productReference = DF5EA4621E7D72F9005DD428 /* GemLoadWebViewImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF5EA46C1E7D72F9005DD428 /* GemLoadWebViewImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5EA47C1E7D72F9005DD428 /* Build configuration list for PBXNativeTarget "GemLoadWebViewImageUITests" */;
+			buildPhases = (
+				DF5EA4691E7D72F9005DD428 /* Sources */,
+				DF5EA46A1E7D72F9005DD428 /* Frameworks */,
+				DF5EA46B1E7D72F9005DD428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5EA46F1E7D72F9005DD428 /* PBXTargetDependency */,
+			);
+			name = GemLoadWebViewImageUITests;
+			productName = GemLoadWebViewImageUITests;
+			productReference = DF5EA46D1E7D72F9005DD428 /* GemLoadWebViewImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5EA4411E7D72F8005DD428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GemShi;
+				TargetAttributes = {
+					DF5EA4481E7D72F8005DD428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DF5EA4611E7D72F9005DD428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF5EA4481E7D72F8005DD428;
+					};
+					DF5EA46C1E7D72F9005DD428 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF5EA4481E7D72F8005DD428;
+					};
+				};
+			};
+			buildConfigurationList = DF5EA4441E7D72F8005DD428 /* Build configuration list for PBXProject "GemLoadWebViewImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5EA4401E7D72F8005DD428;
+			productRefGroup = DF5EA44A1E7D72F9005DD428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5EA4481E7D72F8005DD428 /* GemLoadWebViewImage */,
+				DF5EA4611E7D72F9005DD428 /* GemLoadWebViewImageTests */,
+				DF5EA46C1E7D72F9005DD428 /* GemLoadWebViewImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5EA4471E7D72F8005DD428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5EA45C1E7D72F9005DD428 /* LaunchScreen.storyboard in Resources */,
+				DF5EA4591E7D72F9005DD428 /* Assets.xcassets in Resources */,
+				DF5EA4571E7D72F9005DD428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5EA4601E7D72F9005DD428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5EA46B1E7D72F9005DD428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5EA4451E7D72F8005DD428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5EA4541E7D72F9005DD428 /* ViewController.m in Sources */,
+				DF5EA4511E7D72F9005DD428 /* AppDelegate.m in Sources */,
+				DF5EA44E1E7D72F9005DD428 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5EA45E1E7D72F9005DD428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5EA4671E7D72F9005DD428 /* GemLoadWebViewImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5EA4691E7D72F9005DD428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5EA4721E7D72F9005DD428 /* GemLoadWebViewImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF5EA4641E7D72F9005DD428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5EA4481E7D72F8005DD428 /* GemLoadWebViewImage */;
+			targetProxy = DF5EA4631E7D72F9005DD428 /* PBXContainerItemProxy */;
+		};
+		DF5EA46F1E7D72F9005DD428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5EA4481E7D72F8005DD428 /* GemLoadWebViewImage */;
+			targetProxy = DF5EA46E1E7D72F9005DD428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF5EA4551E7D72F9005DD428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5EA4561E7D72F9005DD428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5EA45A1E7D72F9005DD428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5EA45B1E7D72F9005DD428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5EA4741E7D72F9005DD428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF5EA4751E7D72F9005DD428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5EA4771E7D72F9005DD428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemLoadWebViewImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemLoadWebViewImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF5EA4781E7D72F9005DD428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GemLoadWebViewImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemLoadWebViewImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF5EA47A1E7D72F9005DD428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemLoadWebViewImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemLoadWebViewImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemLoadWebViewImage.app/GemLoadWebViewImage";
+			};
+			name = Debug;
+		};
+		DF5EA47B1E7D72F9005DD428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemLoadWebViewImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemLoadWebViewImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemLoadWebViewImage.app/GemLoadWebViewImage";
+			};
+			name = Release;
+		};
+		DF5EA47D1E7D72F9005DD428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemLoadWebViewImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemLoadWebViewImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemLoadWebViewImage;
+			};
+			name = Debug;
+		};
+		DF5EA47E1E7D72F9005DD428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemLoadWebViewImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemLoadWebViewImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GemLoadWebViewImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5EA4441E7D72F8005DD428 /* Build configuration list for PBXProject "GemLoadWebViewImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5EA4741E7D72F9005DD428 /* Debug */,
+				DF5EA4751E7D72F9005DD428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5EA4761E7D72F9005DD428 /* Build configuration list for PBXNativeTarget "GemLoadWebViewImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5EA4771E7D72F9005DD428 /* Debug */,
+				DF5EA4781E7D72F9005DD428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF5EA4791E7D72F9005DD428 /* Build configuration list for PBXNativeTarget "GemLoadWebViewImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5EA47A1E7D72F9005DD428 /* Debug */,
+				DF5EA47B1E7D72F9005DD428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF5EA47C1E7D72F9005DD428 /* Build configuration list for PBXNativeTarget "GemLoadWebViewImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5EA47D1E7D72F9005DD428 /* Debug */,
+				DF5EA47E1E7D72F9005DD428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5EA4411E7D72F8005DD428 /* Project object */;
+}
